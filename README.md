@@ -49,16 +49,6 @@ Stop the log:
 myLog1->stop();
 ```
 
-Close the log file (can be closed without calling stop):
-```
-myLog1->close();
-```
-
-Open again the log file:
-```
-myLog1->open();
-```
-
 Start again:
 ```
 myLog1->start();
@@ -67,6 +57,6 @@ myLog1->start();
 etc.
 
 Note that it is not necessary to check whether it is possible to write to the log file.
-The library also takes care of this aspect, if the log is stopped or if the log file is closed, simply the non applicable commands will be ignored.
-For debugging purposes it is possible, for example, to call the write function at any point of the program then calling start you start the debug. 
+The library also takes care of this aspect, if the log is stopped simply the non applicable commands will be ignored.
+For debugging purposes it is possible, for example, to call the write() function at any point of the program then calling start you start the debug. 
 
