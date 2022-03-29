@@ -10,7 +10,6 @@
 #include <string>
 #include <stdio.h>
 #include "loggo.h"
-#include "loggo.cpp"
 
 	// File name + default format Date ex. 2022/03/28 + default "*" + default 20
 Loggo *myLog1 = new Loggo("log1_file.txt");
