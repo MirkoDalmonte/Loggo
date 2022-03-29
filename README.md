@@ -1,0 +1,2 @@
+# Loggo
+Simple logger
