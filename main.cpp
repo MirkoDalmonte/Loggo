@@ -9,6 +9,7 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
+#include <unistd.h>
 #include "loggo.h"
 
 	// File name + default format Date ex. 2022/03/28 + default "*" + default 20
